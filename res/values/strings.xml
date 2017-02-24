@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VolumeView</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="volume_view_sine_tips">VolumeViewSine sine函数</string>
+    <string name="volume_view_double_sine_tips">VolumeViewDoubleSine 两个sine函数</string>
+    <string name="volume_view_wave_tips">VolumeViewWave 填充内容的波形图</string>
+    <string name="volume_view_scale_wave_tips">"VolumeViewScaleWave 对波形图进行两边的缩放</string>
+    <string name="volume_view_move_wave_tips">VolumeViewMoveWave 波形图能够向右移动</string>
+    <string name="volume_view_double_move_wave_tips">VolumeViewDoubleMoveWave 两个移动的波形图，速度不同</string>
+    <string name="volume_view_scale_wave_opt_tips">VolumeViewScaleWaveOpt 对缩放的波形曲线进行优化</string>
+    <string name="volume_view_double_move_wave_opt_tips">VolumeViewDoubleMoveWaveOpt 优化后的移动图形</string>
+    <string name="volume_view_tips">音量view，可以根据音量变化改变波形</string>
+    <string name="button_start">开始</string>
+    <string name="button_stop">停止</string>
+    <string name="button_random_volume_start">开始随机音量</string>
+    <string name="button_random_volume_stop">停止随机音量</string>
+
+</resources>

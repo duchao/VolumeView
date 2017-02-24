@@ -1,0 +1,219 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.volumeview.MainActivity" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <!-- 正弦函数 单个 -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="@string/volume_view_sine_tips"
+                android:textSize="14sp" />
+
+            <com.example.volumeview.VolumeViewSine
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#FF3086F2" />
+
+            <!-- 正弦函数 两个 -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="@string/volume_view_double_sine_tips"
+                android:textSize="14sp" />
+
+            <com.example.volumeview.VolumeViewDoubleSine
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#FF3086F2" />
+
+            <!-- 正弦函数两个 填充成波形 -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="@string/volume_view_wave_tips"
+                android:textSize="14sp" />
+
+            <com.example.volumeview.VolumeViewWave
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#FF3086F2" />
+
+            <!-- 正弦函数两个 填充成波形，进行了缩放 -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="@string/volume_view_scale_wave_tips"
+                android:textSize="14sp" />
+
+            <com.example.volumeview.VolumeViewScaleWave
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#FF3086F2" />
+
+            <!-- 正弦函数两个 填充成波形，进行了缩放，能够向右移动 -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="@string/volume_view_move_wave_tips"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/move_wave_start"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/button_start"
+                    android:textSize="10sp" />
+
+                <Button
+                    android:id="@+id/move_wave_stop"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/button_stop"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <!-- 两个波形，能够向右移动 -->
+
+            <com.example.volumeview.VolumeViewMoveWave
+                android:id="@+id/move_wave"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#FF3086F2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="@string/volume_view_double_move_wave_tips"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/move_wave_double_start"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/button_start"
+                    android:textSize="10sp" />
+
+                <Button
+                    android:id="@+id/move_wave_double_stop"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/button_stop"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <com.example.volumeview.VolumeViewDoubleMoveWave
+                android:id="@+id/move_wave_double"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#FF3086F2" />
+
+            <!-- 对缩放的波形曲线进行优化 -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="@string/volume_view_scale_wave_opt_tips"
+                android:textSize="14sp" />
+
+            <com.example.volumeview.VolumeViewScaleWaveOpt
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#FF3086F2" />
+
+            <!-- 对移动的波形进行优化 -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="@string/volume_view_double_move_wave_opt_tips"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/move_wave_opt_double_start"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/button_start"
+                    android:textSize="10sp" />
+
+                <Button
+                    android:id="@+id/move_wave_opt_double_stop"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/button_stop"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <com.example.volumeview.VolumeViewDoubleMoveWaveOpt
+                android:id="@+id/move_wave_opt_double"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#FF3086F2" />
+
+            <!-- 最后的音量view -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="@string/volume_view_tips"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/volume_view_random_start"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/button_random_volume_start"
+                    android:textSize="10sp" />
+
+                <Button
+                    android:id="@+id/volume_view_random_stop"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/button_random_volume_stop"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <com.example.volumeview.VolumeView
+                android:id="@+id/volume_view"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#FF3086F2" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
