@@ -215,6 +215,7 @@ amplitude 为振幅的高度，也就是半个画布的高度。绘制出的图�
 
 源代码地址：[https://github.com/duchao/VolumeView][15]
 
+##可以直接使用的view
 VolumeView.java
 API:  start() 开始
        stop() 结束
