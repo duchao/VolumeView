@@ -213,12 +213,14 @@ amplitude 为振幅的高度，也就是半个画布的高度。绘制出的图�
 
 ## 可以直接使用的view
 
+源代码地址：[https://github.com/duchao/VolumeView][15]
+
 VolumeView.java
 API:  start() 开始
        stop() 结束
        setVolume(float volume) 设置音量
-       
-  [1]: http://upload-images.jianshu.io/upload_images/3050535-330c294cd7882d02.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240
+
+  [1]: http://upload-images.jianshu.io/upload_images/3050535-330c294cd7882d02.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240
   [2]: http://upload-images.jianshu.io/upload_images/3050535-eadb0d5bbea603bd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240
   [3]: http://upload-images.jianshu.io/upload_images/3050535-cf4afe45500e5c25.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240
   [4]: http://upload-images.jianshu.io/upload_images/3050535-2d83125173ad0cbd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240
@@ -232,3 +234,4 @@ API:  start() 开始
   [12]: http://upload-images.jianshu.io/upload_images/3050535-1a47d6f71bb450f1.gif?imageMogr2/auto-orient/strip
   [13]: http://upload-images.jianshu.io/upload_images/3050535-c2fa84fa7e1157b0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240
   [14]: http://upload-images.jianshu.io/upload_images/3050535-42955fd827a69809.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240
+  [15]: https://github.com/duchao/VolumeView
